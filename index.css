@@ -36,19 +36,24 @@ main {
 
 .button-container {
   position: relative;
-  width: 50%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;;
 }
 button {
-  margin: 15px;
-  padding: 5px 20px;
+  display: inline-block;
+  padding: 5px 10px;
+  width: 45%;
+  max-width: 150px;
+  margin: 20px auto;
   border-radius: 5px;
-  font-size: 1.7rem;
+  font-size: 80%;
   font-weight: 700;
   background-color:rgba(186,8,181,1);
   color: #221e1e;
+}
+#playButton{
+  margin-right:20px;
 }
 .ads {
   padding: 2px;
